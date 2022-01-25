@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background-color: rgb(192, 151, 233);
+}
+.App {
+  text-align: center;
+  width: 45%;
+  margin: 7rem auto;
+  background-color: rgb(219, 230, 230);
+  padding: 1rem;
+  border-radius: 15px;
+  min-width: 400px;
+}
+.heading {
+  text-align: center;
+  margin: 1rem;
+  color: rgb(42, 189, 140);
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+}
+.stopWatch {
+  margin-top: 10vh;
+}
+.timer {
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+.timer span {
+  padding: 20px;
+  background-color: rgb(57, 57, 78);
+  margin: 5px;
+  color: #fff;
+  border-radius: 20px;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+.stopWatch button {
+  padding: 8px 6px;
+  border: none;
+  background-color: rgb(132, 165, 206);
+  font-size: 20px;
+  margin: 5px;
+  padding: 8px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.laps li {
+  list-style: none;
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+  padding: 10px 0px;
+}
+.laps {
+  margin-top: 20px;
+}
