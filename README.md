@@ -1,6 +1,6 @@
 # StopWatch
 
-## This Stopwatch is developed using React and Redux
+### This Stopwatch is developed using React and Redux
 
 ---
 #### Access link : https://praveenchandra01.github.io/StopWatch-React-Redux/
