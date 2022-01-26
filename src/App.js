@@ -19,7 +19,8 @@ function App() {
 
   const handleLap = async () => {
     const laptime = changetime(time);
-    await setLaps((prevLap) => prevLap.concat(laptime));
+    await setLaps((prevLap) => [...prevLap, laptime]);
+    // await setLaps((prevLap) => prevLap.concat(laptime));
     console.log(laps);
   };
 
